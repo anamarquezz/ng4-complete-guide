@@ -8,6 +8,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
+    new Recipe('A Test Recipe','this is a simple a test','https://www.chowstatic.com/assets/2015/05/31440_classic_pesto_salad.jpg'),
+    new Recipe('A Test Recipe','this is a simple a test','https://www.chowstatic.com/assets/2015/05/31440_classic_pesto_salad.jpg'),
     new Recipe('A Test Recipe','this is a simple a test','https://www.chowstatic.com/assets/2015/05/31440_classic_pesto_salad.jpg')
   ];
   constructor() { }
